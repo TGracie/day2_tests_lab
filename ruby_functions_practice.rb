@@ -12,3 +12,7 @@ end
 def subtract(num_1, num_2)
   return num_1 - num_2
 end
+
+#function 4
+def multiply(num_1, num_2)
+end
