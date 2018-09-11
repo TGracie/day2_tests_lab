@@ -30,5 +30,5 @@ end
 
 #function 7
 def join_string(string_1, string_2)
-
+return string_1 + string_2
 end
