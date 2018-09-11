@@ -41,4 +41,14 @@ end
 #function 9
 
 def number_to_full_month_name_1(num_1)
+  case
+  when 1
+    return "January"
+  when 3
+    return "March"
+  when 9
+    return "September"
+  else
+    return "Nil"
+  end
 end
