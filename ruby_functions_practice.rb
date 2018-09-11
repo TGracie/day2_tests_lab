@@ -25,5 +25,5 @@ end
 
 #function 6
 def length_of_string()
-
+  return "A string of length 21".length
 end
