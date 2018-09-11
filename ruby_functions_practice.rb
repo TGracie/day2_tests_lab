@@ -22,3 +22,8 @@ end
 def divide(num_1, num_2)
   return num_1/num_2
 end
+
+#function 6
+def length_of_string()
+
+end
