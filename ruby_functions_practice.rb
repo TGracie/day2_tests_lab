@@ -67,3 +67,8 @@ def number_to_short_month_name(month_num)
     return "Nil"
   end
 end
+
+#Further 1
+def cube_volume(side_length)
+  return side_length**3
+end
