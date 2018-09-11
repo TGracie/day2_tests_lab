@@ -48,20 +48,20 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_number_to_full_name_month_1()
-    result = number_to_full_month_name_1( 1 )
+    result = number_to_full_month_name( 1 )
     assert_equal( "January", result )
   end
 
-  # def test_number_to_full_name__month_3()
-  #   result = number_to_full_month_name( 3 )
-  #   assert_equal( "March", result )
-  # end
-  #
-  # def test_number_to_full_name__month_9()
-  #   result = number_to_full_month_name( 9 )
-  #   assert_equal( "September", result )
-  # end
-  #
+  def test_number_to_full_name__month_3()
+    result = number_to_full_month_name( 3 )
+    assert_equal( "March", result )
+  end
+
+  def test_number_to_full_name__month_9()
+    result = number_to_full_month_name( 9 )
+    assert_equal( "September", result )
+  end
+
   # def test_substring__month_1()
   #   first_month_string = number_to_short_month_name( 1 )
   #   assert_equal( "Jan", first_month_string )
