@@ -32,3 +32,7 @@ end
 def join_string(string_1, string_2)
 return string_1 + string_2
 end
+
+#function 8
+def add_string_as_number()
+end
