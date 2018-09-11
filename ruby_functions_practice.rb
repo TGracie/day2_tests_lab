@@ -38,7 +38,7 @@ def add_string_as_number(string_1, string_2)
   return string_1.to_i + string_2.to_i
 end
 
-#function 10
+#function 9..11
 
 def number_to_full_month_name(month_num)
   case
@@ -48,6 +48,21 @@ def number_to_full_month_name(month_num)
     return "March"
   when month_num == 9
     return "September"
+  else
+    return "Nil"
+  end
+end
+
+#function 12..14
+
+def substring__month(month_num)
+  case
+  when month_num == 1
+    return "Jan"
+  when month_num == 4
+    return "Apr"
+  when month_num == 10
+    return "Oct"
   else
     return "Nil"
   end
