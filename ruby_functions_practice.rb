@@ -79,3 +79,9 @@ def sphere_volume(radius)
   result = (4/3.0)*3.14*(radius**3)
   return result.round(2)
 end
+
+#Further 3
+
+def f_to_c(temp)
+  return (temp.to_i-32)*0.5556
+end
