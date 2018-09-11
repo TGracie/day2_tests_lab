@@ -4,3 +4,5 @@ def return_10()
 end
 
 #function 2
+def add(num_1, num_2)
+end
