@@ -55,7 +55,7 @@ end
 
 #function 12..14
 
-def substring__month(month_num)
+def number_to_short_month_name(month_num)
   case
   when month_num == 1
     return "Jan"
